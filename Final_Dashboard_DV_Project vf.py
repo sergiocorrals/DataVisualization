@@ -186,6 +186,8 @@ dropdown_sources = dcc.Dropdown(
     style={"box-shadow": "1px 1px 3px lightgray", "background-color": "white"}
     )
 
+app = dash.Dash(__name__)
+server = app.server
 
 # ----------------------------------------------------------------------------------------------------------------------
 # App layout
