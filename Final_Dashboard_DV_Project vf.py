@@ -18,9 +18,12 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
+app = dash.Dash(__name__)
+server = app.server
+
 # ----------------------------------------------------------------------------------------------------------------------
 # Calling the app
-app = Dash(external_stylesheets=[dbc.themes.GRID])
+#app = Dash(external_stylesheets=[dbc.themes.GRID])
 
 
 # ----------------------------------------------------------------------------------------------------------------------
